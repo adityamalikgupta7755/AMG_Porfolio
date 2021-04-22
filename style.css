@@ -257,11 +257,7 @@ header nav a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
-    color: transparent;
     font-size: 1.5rem;
-  }
-  .work-section .card:hover .link
-  {
     background-color: rgba(0, 0, 0, 0.701);
     border: 1px solid rgba(255, 255, 255, 0.9);
     padding: 10px 20px;
