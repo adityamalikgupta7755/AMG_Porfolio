@@ -334,14 +334,10 @@ header nav a:hover{
 #sidebar:hover{
     transform: translate(0px);
 }
-#sidebar #project-nav ul li a h5{
-    font-size: 2rem;
-    font-weight: bolder;
-    display: inline-block;
-}
+
 #sidebar #project-nav ul li{
     text-align: right;
-    margin: 10px 0;
+    margin: 15px 0;
     
    
 }
@@ -355,11 +351,20 @@ header nav a:hover{
     backdrop-filter: blur(10px);
     border-radius: 20px 0px 0px 20px;
     padding: 7px 10px;
+   
 
 }
-#sidebar #project-nav ul li a:hover{
-    color:blue;
-    border: 1px solid blue;
+#sidebar #project-nav ul li a h5{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: inline-block;
+    
+}
+#sidebar #project-nav ul li:hover a{
+    color:#fff;
+    background: rgba(0, 0, 0, .6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 footer{
     text-align: center; 
@@ -491,11 +496,12 @@ footer{
     {
         top:200px;  
     }
-    #sidebar #project-nav ul li a h5{
-        font-size: 1rem;
-    }
+  
     #sidebar #project-nav ul li a{
         font-size: .8rem;
+    }
+    #sidebar #project-nav ul li a h5{
+        font-size: 1rem;
     }
     #social-media ul li span{
         font-size: 30px;
