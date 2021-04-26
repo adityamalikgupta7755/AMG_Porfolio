@@ -406,21 +406,26 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 400px;
+        max-width: 100%;
         margin: 30px auto;
+        /* border: 1px solid white; */
     }
     #about .about-main-content .about-content{
-        /* text-align: justify; */
-        margin:10px 1.5em;
+        text-align: justify;
+        width:70%;
+        /* margin:10px 1.5em; */
+        /* border: 1px solid white; */
     }
     #about .about-main-content .about-content h3{
         text-align: center;
-        margin:10px 0em;
+        margin:20px 0em;
     }
     #about .about-main-content .about-content p{
-       font-size: 1.2rem;
+       font-size: 1rem;
        text-align: justify;
     }
+
+
     #edu #edu-detail table{
         margin: 0 10px;
 
@@ -481,7 +486,7 @@ footer{
         top: 150px;
     }
     #sidebar{
-        transform: translateX(20px);
+        transform: translateX(90px);
     }
     #sidebar #project-nav
     {
