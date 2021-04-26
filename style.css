@@ -334,15 +334,10 @@ header nav a:hover{
 #sidebar:hover{
     transform: translate(0px);
 }
-#sidebar #project-nav ul li h5{
+#sidebar #project-nav ul li a h5{
     font-size: 2rem;
     font-weight: bolder;
     display: inline-block;
-    background: rgba(255, 255, 255, .6);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    border-radius: 20px 0px 0px 20px;
-    padding: 5px 10px;
 }
 #sidebar #project-nav ul li{
     text-align: right;
@@ -359,8 +354,12 @@ header nav a:hover{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 20px 0px 0px 20px;
-    padding: 5px 10px;
+    padding: 7px 10px;
 
+}
+#sidebar #project-nav ul li a:hover{
+    color:blue;
+    border: 1px solid blue;
 }
 footer{
     text-align: center; 
