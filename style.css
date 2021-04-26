@@ -491,7 +491,7 @@ footer{
     {
         top:200px;  
     }
-    #sidebar #project-nav ul li h5{
+    #sidebar #project-nav ul li a h5{
         font-size: 1rem;
     }
     #sidebar #project-nav ul li a{
