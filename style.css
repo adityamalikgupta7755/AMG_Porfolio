@@ -481,7 +481,7 @@ footer{
         top: 150px;
     }
     #sidebar{
-        transform: translateX(50px);
+        transform: translateX(30px);
     }
     #sidebar #project-nav
     {
